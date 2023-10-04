@@ -1,0 +1,121 @@
+.member-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.member {
+  background-color: #f3f3f3;
+  margin: 30px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease-in-out;
+}
+
+.member-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.member-avatar {
+  margin-bottom: 10px;
+}
+
+.member-avatar-size {
+  border-radius: 50%;
+  filter: drop-shadow(1px 4px 3px black);
+}
+
+.member-name {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.member-position {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.member-description {
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-button {
+  padding: 5px;
+  border: 1;
+}
+
+img.social-media-icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+img.social-media-icon:hover {
+  transform: translateY(-5px);
+  border-radius: 30%;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.member:hover {
+  /*animation: bounce 0.3s;
+  animation-fill-mode: forwards;*/
+  background-color: #ffffff;
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease-in-out;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+h2.title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.description {
+  margin: 20px 30px 30px 20px;
+}
+
+h4.description {
+  display: block;
+  font-size: 20px;
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+}
